@@ -5,3 +5,7 @@
   margin: auto;
   background-color: white;
 }
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
