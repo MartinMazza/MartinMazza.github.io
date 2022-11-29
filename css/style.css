@@ -10646,7 +10646,7 @@ a {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
-  color: #3e64ff;
+  color: #212529; /* #3e64ff */
 }
 a:hover,
 a:focus {
