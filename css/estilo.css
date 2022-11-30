@@ -12,6 +12,7 @@
 
 .servicios-heading {
   color: black;
+  text-decoration: none;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active,
