@@ -2880,7 +2880,9 @@ textarea.form-control-lg {
   border-bottom-right-radius: 0;
 }
 .input-group
-  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  > :not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(
+    .valid-feedback
+  ):not(.invalid-tooltip):not(.invalid-feedback) {
   margin-left: -1px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -11863,7 +11865,7 @@ header.masthead .masthead-heading {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: rgba(255, 200, 0, 0.9);
+  background: rgba(255, 200, 0, 0.85);
   align-items: center;
   justify-content: center;
   opacity: 0;
@@ -11901,8 +11903,8 @@ header.masthead .masthead-heading {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 1rem;
-  max-width: 100vw;
+  margin: auto;
+  max-width: 75vw;
 }
 .portfolio-modal .modal-content {
   padding-top: 6rem;

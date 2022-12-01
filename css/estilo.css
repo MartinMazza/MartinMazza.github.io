@@ -1,13 +1,20 @@
-.acordeon {
+/* .acordeon {
   color: black;
   font-size: 1.5rem;
   text-align: center;
   margin: auto;
   background-color: white;
-}
+} */
 
-.grid--2-cols {
+/* .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
+} */
+
+body {
+  /* background-image: url(/assets/img/encabezado_carrousel/atardecer.jpg); */
+  /* background-color: rgba(128, 128, 128, 0.148); */
+  /* background-image: url(/assets/img/encabezado_carrousel/sierras.jpg); */
+  background-color: #f8f9fa;
 }
 
 .servicios-heading {
@@ -18,4 +25,8 @@
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #ffc800;
+}
+
+.footer-alojamiento {
+  margin-top: 100px;
 }
